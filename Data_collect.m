@@ -9,5 +9,4 @@ m1.isStreaming;
 %meanEMG = mean(m1.emg_log, 2);
 %plot(m1.timeEMG_log, meanEMG), title('EMG')
 
-%clear m1 %Clear the current dataset
-%clear mm %Clear MyoMex
+%clear %Clear the old session
